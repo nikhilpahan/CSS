@@ -1,5 +1,12 @@
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .circle {
     width: 100px;
     height: 100px;
-    background-color: lightgreen;
+    /* background-color: yellowgreen; */
+    background-image: linear-gradient(to left, rgb(9, 72, 207) , rgb(249, 5, 184));
+    border-radius: 50px;
+    margin-top: 10px;
 }
