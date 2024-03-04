@@ -1,5 +1,6 @@
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 27, 73);
 }
 
 .circle {
@@ -8,5 +9,13 @@ h3{
     /* background-color: yellowgreen; */
     background-image: linear-gradient(to left, rgb(9, 72, 207) , rgb(249, 5, 184));
     border-radius: 50px;
+    margin-top: 10px;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(to left, rgb(2, 174, 247) , rgb(147, 5, 249));
+    border-radius: 100px / 50px;
     margin-top: 10px;
 }
