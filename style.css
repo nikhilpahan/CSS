@@ -10,6 +10,7 @@ h3{
     background-image: linear-gradient(to left, rgb(9, 72, 207) , rgb(249, 5, 184));
     border-radius: 50px;
     margin-top: 10px;
+    box-shadow: 2px 4px rgba(0, 66, 88, 0.2);
 }
 
 .oval {
@@ -18,4 +19,25 @@ h3{
     background-image: linear-gradient(to left, rgb(2, 174, 247) , rgb(147, 5, 249));
     border-radius: 100px / 50px;
     margin-top: 10px;
+    box-shadow: 5px 5px rgb(0, 66, 88, 0.1);
+}
+
+.oval-2{
+    width: 200px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: saturate(180%) blur(15px);
+    /* background-image: linear-gradient(to left, rgb(2, 174, 247) , rgb(147, 5, 249)); */
+    border-radius: 90px;
+    margin-top: -80px;
+
+}
+
+.trapizum{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left, rgb(2, 174, 247) , rgb(147, 5, 249));
+    transform: skew(-20deg);
+    
 }
